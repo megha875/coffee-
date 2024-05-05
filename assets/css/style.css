@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Satisfy&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    /*font-family: "Great Vibes", cursive;*/
+
+
+}
+
+.bg-coffee{
+    background:#945953b3
+}
+.bg-light-orange{
+    background: #FFF9F1;
+}
+.coffee-boder{
+    background: 1px solid #FFF9F1;
+}
+.bg-coffee2{
+       background: #daad76;
+}
+/*.card-body{
+      background:#daad77;
+}*/
+.text-coffee{
+    color: #603807;
+    font-size: 50px;
+}
+h1{
+    color: #603807;
+    font-size: 50px;
+}
+.text-coffee2{
+    color: #603807;
+    font-size: 25px;
+}
+/* Navbar Section Start */
+.nav-link {
+    color: #ffffffb3;
+}
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show{
+   color: #fff;
+   font-weight: 600 !important;
+}
+.nav-link:focus,
+.nav-link:hover{
+    color: #fff;
+    transition: color 0.3s ease;
+}
+/*Navbar Section End */
+/* Hero Section Start */
+.hero{
+
+    width: 100%;
+    color: #fff;
+    background:linear-gradient(#00000000 ,#00000000), url(../img/banner.png);
+    background-size: cover;
+    
+}
+.hero .coffe{
+      font-family: "Great Vibes", cursive;
+      font-style: normal;
+      font-size: 140px;
+
+}
+
+/* Hero Section End */
+/* Coffee Style Section Start */
+.card {
+      border: 2px solid #daad77;
+}
+.card .btn{
+    margin-bottom: 0;
+    justify-content: center;
+    position: relative;
+    top: 26px;
+    left: 45px;
+    right: 20px;
+
+     
+}
+/* Coffee Style Section End */
+/* Differenent Section Start */
+/*.card{
+    display: flex;
+
+}
+.btn_1{
+    
+}*/
+.card p{
+}
+/* Different Sction End */
